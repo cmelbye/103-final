@@ -1,6 +1,6 @@
 package main
 
-func mergeSort(list []int) {
+func MergeSort(list []int) {
 	mergeSortRange(list, 0, len(list) - 1)
 }
 

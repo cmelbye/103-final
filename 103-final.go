@@ -19,11 +19,11 @@ func sorts() {
 	fmt.Println("Before:", originalList)
 
 	mergeSortList := copyList(originalList)
-	mergeSort(mergeSortList)
+	MergeSort(mergeSortList)
 	fmt.Println("After merge sort:", mergeSortList)
 
 	quickSortList := copyList(originalList)
-	quickSort(quickSortList)
+	QuickSort(quickSortList)
 	fmt.Println("After quick sort:", quickSortList)
 
 	fmt.Println()

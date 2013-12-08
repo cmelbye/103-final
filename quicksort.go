@@ -1,6 +1,6 @@
 package main
 
-func quickSort(list []int) {
+func QuickSort(list []int) {
 	quickSortRange(list, 0, len(list) - 1)
 }
 
